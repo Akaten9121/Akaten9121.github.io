@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TFT Set 18 ダメージシミュレーター</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<main>
+<section class="wide"><h1>TFT Set 18 ダメージシミュレーター(フェーズ2)</h1>
+<div class="w">敵の物理防御・魔法防御・耐久力を反映したダメージを出力します(Dパネルで入力。0なら軽減なし)。ステータス・スキル数値は未入力のままなら0扱いで、推測値は入れていません。</div></section>
+<section id="pA"></section><section id="pB"></section>
+<section id="pC"></section><section id="pD"></section>
+</main>
+
+
+<!-- 読み込み順を変えないこと: データ → セーブ → 本体 → テスト -->
+<script src="database.js"></script>
+<script src="save.js"></script>
+<script src="script.js"></script>
+<script src="tests.js"></script>
+</body></html>
